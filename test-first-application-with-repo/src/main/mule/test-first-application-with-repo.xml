@@ -2,4 +2,8 @@
 
 <mule xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd"></mule>
+	xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd">
+	<flow name="test-first-application-with-repoFlow" doc:id="4ec86e77-7454-4ea6-a368-4ea4e43d4808" >
+		<logger level="INFO" doc:name="Logger" doc:id="91851a3b-3ae4-4c73-baa5-00959f669aba" message="status"/>
+	</flow>
+</mule>
